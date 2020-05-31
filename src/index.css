@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background: #E4E4E4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background: #4C2B5A;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 0;
+  border-bottom: 5px solid #EEA2A2;
+  text-transform: uppercase;
+}
+
+.header h3 {
+  color: #fff;
+}
+
+.movies_list .btn {
+background: #4C2B5A;
+border: none;
+}
+
+.movies_list img {
+ max-height: 320px;
+}
+
+
+.card {
+  box-shadow: 0 0 5px #bfbebe;
+  position: relative;
+}
+
+.card:hover .card-body{
+  background: #4C2B5A;
+}
+
+.footer {
+  background: #4C2B5A;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 0 4px 0;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.card-body {
+  transition: 0.4s;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 9px 12px;
+  position: absolute;
+  z-index: 1;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  color: #fff;
+  bottom: 0;
+}
