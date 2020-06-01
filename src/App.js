@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   
   componentDidMount(){
-    fetch('http://www.omdbapi.com/?apikey=cdb6f94d&s=action&plot')
+    fetch('https://www.omdbapi.com/?apikey=cdb6f94d&s=action&plot')
     .then((Response)=>Response.json())
     .then((findresponse)=>
     {
